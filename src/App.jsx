@@ -1,5 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
-import { Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Navigate } from 'react-router-dom'
 
 //Import Style
@@ -22,9 +21,9 @@ function App() {
       <main>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/Logements" element={<Logements />} />
-          <Route path="/Apropos" element={<Apropos />} />
-          <Route path="/Error" element={<Error />} />
+          <Route path="/logements" element={<Logements />} />
+          <Route path="/apropos" element={<Apropos />} />
+          <Route path="/error" element={<Error />} />
           <Route
             path="*"
             element={<Navigate to="/erreur" replace />}
