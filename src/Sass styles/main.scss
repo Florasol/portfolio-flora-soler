@@ -1,0 +1,17 @@
+// Import the color module
+// @use 'sass:color';  
+
+// Styles
+@import "./variables";
+@import "./mixins";
+
+// Components
+@import "./components/Banner";
+@import "./components/Card";
+@import "./layouts/Footer";
+@import "./layouts/Header";
+
+// Pages 
+@import "./pages/apropos";
+@import "./pages/home";
+@import "./pages/logements";

@@ -1,0 +1,19 @@
+.error {
+    width: 80%;
+    margin: 20% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+        &__code {
+            font-size: 120px;
+            color: #FF6060;
+        }
+        &__title {
+            font-size: 32px;
+            margin-bottom: 10%;
+        }
+        &__homeLink {
+            font-size: 18px;
+        }
+}

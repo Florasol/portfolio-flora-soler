@@ -17,8 +17,8 @@ import Footer from './layouts/Footer'
 function App() {
   return (
     <BrowserRouter>
+      <div className='container'>
       <Header />
-      <main>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/logements" element={<Logements />} />
@@ -26,10 +26,10 @@ function App() {
           <Route path="/error" element={<Error />} />
           <Route
             path="*"
-            element={<Navigate to="/erreur" replace />}
+            element={<Navigate to="/error" replace />}
           />
         </Routes>
-      </main>
+      </div>
       <Footer />
     </BrowserRouter>
   )

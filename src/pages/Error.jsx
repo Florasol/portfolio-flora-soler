@@ -1,7 +1,18 @@
+import { Link } from 'react-router-dom';
+
+// styles
+import '../Sass styles/error.scss';
+
 const Error = () => {
     return (
-        <div>
-            <h1>Page d'accueil</h1>
+        <div className='error'>
+            <p className="error__code">404</p>
+            <h1 className='error__title'>Oups! La page que vous demandez n'existe pas.</h1>
+            <Link to="/">
+            <p className='error__homeLink'>
+            Retourner sur la page d’accueil
+            </p>
+            </Link>
         </div>
     )
 }
