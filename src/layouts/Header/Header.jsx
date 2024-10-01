@@ -1,17 +1,18 @@
+// Import tools
 import { Link, NavLink } from 'react-router-dom';
 
-// assets
-import logoKasa from "../assets/logoKasa.svg"
+// Import image
+import logoKasa from "../../assets/logoKasa.svg"
 
-// styles
-import '../Sass styles/header.scss';
+// Import styles
+import './header.scss';
 
 
 const Header = () => {
     return (
        <header className='header'>
          <Link to="/">
-            <img className='kasaLogo' alt='Logo de kasa' src={logoKasa} />
+            <img className='logoKasa' alt='Logo de kasa' src={logoKasa} />
          </Link>
          <nav>
             <NavLink to="/" className='nav__item'>

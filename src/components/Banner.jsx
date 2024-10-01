@@ -1,5 +1,5 @@
 // styles
-import '../Sass styles/banner.scss';
+import '../SassStyles/banner.scss';
 
 function Banner({ title, picture, className }) {
     return (

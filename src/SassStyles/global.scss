@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 20px 0px 0px;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+  }
+
+  .container {
+    max-width: 1300px;
+    min-height: 85vh;
+    width: 85%;  
+    margin: 0 auto;
+  }

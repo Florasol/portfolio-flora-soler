@@ -1,6 +1,6 @@
 // Colors 
-$color-primary :     #FF6060;
-$color-secondary :   #C4C4C4;
+$primary-color :     #FF6060;
+$secondary-color :   #C4C4C4;
 $background-color :  #F6F6F6;
 
 // Text shadow
@@ -19,3 +19,10 @@ $font-weight: (
     regular: 500,
     bold: 700,
 );
+
+/* Border radius */
+$border-radius-l: 25px;
+$border-radius-m: 10px;
+$border-radius-s: 5px;
+
+

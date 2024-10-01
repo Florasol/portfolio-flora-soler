@@ -11,8 +11,8 @@ import Logements from './pages/Logements'
 import Error from './pages/Error'
 
 //Import Layouts
-import Header from './layouts/Header'
-import Footer from './layouts/Footer'
+import Header from './layouts/Header/Header'
+import Footer from './layouts/Footer/Footer'
 
 function App() {
   return (

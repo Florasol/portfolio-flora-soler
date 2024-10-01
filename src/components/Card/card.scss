@@ -1,5 +1,4 @@
-@import './variables.scss';
-@import './mixins.scss';
+@import '../../SassStyles/main';
 
 .card {
     position: relative;
@@ -7,7 +6,7 @@
     flex-direction: wrap;
     width: 340px;
     height: 340px;
-    background-color: $color-primary;
+    background-color: $primary-color;
     border-radius: 10px;
     overflow: hidden;
     transition: box-shadow 200ms ease-in-out;
@@ -23,7 +22,7 @@
     &:hover {
         &::before{
             content:"";
-            background-color: darken($color-primary, 50%);
+            background-color: darken($primary-color, 50%);
             opacity: 30%;
         }
     }

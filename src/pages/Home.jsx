@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Banner from '../components/Banner'
-import Card from '../components/Card'
+import Card from '../components/Card/Card'
 
 // Image Banner
 import homeBanner from '../assets/accueilBanner.jpg'
