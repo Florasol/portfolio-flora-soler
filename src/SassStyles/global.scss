@@ -7,14 +7,12 @@ body {
     margin: 20px 0px 0px;
 }
 
-#root {
-    height: 100%;
-    width: 100%;
-  }
+html {
+	@include main-typography;
+}
 
-  .container {
-    max-width: 1300px;
-    min-height: 85vh;
-    width: 85%;  
-    margin: 0 auto;
-  }
+h1 {
+    color: $primary-color;
+	@include title-typography;
+}
+  

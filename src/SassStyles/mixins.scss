@@ -4,17 +4,32 @@
 }
 
 // Mediaqueries
-@mixin smartphone-responsive {
-    @media all and (max-width: map-get($breakpoints, smartphone)) {
+@mixin mobile-responsive {
+    @media all and (max-width: map-get($breakpoints, mobile)) {
         @content;
     }
 }
 
 @mixin tablet-responsive {
-    @media all and (min-width: map-get($breakpoints, smartphone)) and (max-width: map-get($breakpoints, tablet)) {
+    @media all and (min-width: map-get($breakpoints, mobile)) and (max-width: map-get($breakpoints, tablet)) {
         @content;
     }
 }
+
+// Typo 
+@mixin main-typography {
+	font-family: 'Montserrat', sans-serif;
+	font-size: map-get($font-size, text);
+	@include mobile-responsive {
+		font-size: map-get($font-size, mobile-text);
+	}
+}
+
+@mixin title-typography {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 
 
 

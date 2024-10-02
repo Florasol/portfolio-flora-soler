@@ -8,7 +8,7 @@ import './App.scss'
 import Home from './pages/Home'
 import Apropos from './pages/Apropos'
 import Logements from './pages/Logements'
-import Error from './pages/Error'
+import Error from './pages/Error/Error'
 
 //Import Layouts
 import Header from './layouts/Header/Header'
@@ -21,7 +21,7 @@ function App() {
       <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/logements" element={<Logements />} />
+          <Route path="/logements/:rentalId" element={<Logements />} />
           <Route path="/apropos" element={<Apropos />} />
           <Route path="/error" element={<Error />} />
           <Route

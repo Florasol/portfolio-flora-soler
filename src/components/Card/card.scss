@@ -10,7 +10,7 @@
     border-radius: 10px;
     overflow: hidden;
     transition: box-shadow 200ms ease-in-out;
-    @include smartphone-responsive {
+    @include mobile-responsive {
         height: 255px;
         width: 100%;
     }
@@ -35,6 +35,8 @@
         z-index: 0;
         content:"";
         transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+        height: -50%; /* Ajuste la hauteur de l'ombre */
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
     }
     &__img {
         width: 100%;
@@ -60,7 +62,7 @@
     background-color: #F6F6F6;
     padding: 50px 50px;
     border-radius: 25px;
-    @include smartphone-responsive {
+    @include mobile-responsive {
         background-color: white;
         padding: 20px 0px;
         }
@@ -69,7 +71,7 @@
         flex-wrap: wrap;
         gap: 40px;
         width: 100%;
-    @include smartphone-responsive {
+    @include mobile-responsive {
       flex-direction: column;
       flex-wrap: nowrap;
       gap: 30px;

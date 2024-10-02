@@ -14,9 +14,10 @@
                 text-decoration: none;
                 font-size: 24px;
                 padding: 0 0 0 60px;
-                @media (max-width: 1001px) {
+                @include mobile-responsive {
                    font-size: 17px;
                    padding: 0 0 0 15px;
+                   text-transform: uppercase;
                 }
              }
              &__item.active:hover {
@@ -27,8 +28,8 @@
              }
     }
    .logoKasa {
-      @include tablet-responsive {
-         width: 115px;
+      @include mobile-responsive {
+         width: 120px;
       }
    }
     

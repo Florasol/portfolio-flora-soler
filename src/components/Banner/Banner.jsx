@@ -1,5 +1,6 @@
-// styles
-import '../SassStyles/banner.scss';
+
+// Import styles
+import './banner.scss';
 
 function Banner({ title, picture, className }) {
     return (

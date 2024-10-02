@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import '../../SassStyles/main';
 
 .banner {
     position: relative;
@@ -31,6 +31,6 @@
         padding: 5%;
         color: white;
         font-size: 48px;  
-        font-weight: map-get($font-weight, regular);
+        font-weight: map-get($font-weight, bold);
     }
 }

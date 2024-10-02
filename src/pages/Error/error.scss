@@ -1,13 +1,14 @@
+@import '../../SassStyles/main.scss';
+
 .error {
-    width: 80%;
-    margin: 20% auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
         &__code {
-            font-size: 120px;
-            color: #FF6060;
+            font-family: 'Montserrat', sans-serif;
+            font-weight:bold;
+            font-size: 160px;
+            color: $primary-color;
         }
         &__title {
             font-size: 32px;
