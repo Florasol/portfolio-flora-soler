@@ -5,6 +5,9 @@ import { useState } from 'react'
 //Import images
 import chevronRight from '../../assets/chevron-right-solid.svg'
 
+//Import style
+import './slideshow.scss';
+
 //Component
 function Slideshow({ slides }) {
   const pics = slides
@@ -23,14 +26,14 @@ function Slideshow({ slides }) {
   }
 
   return (
-    <div className="carousel">
+    <div className="carrousel">
       <div
-        className="carousel__slider"
+        className="carrousel__slider"
         style={{ transform: `translateX(${-currentSlide * 100}%)` }}
       >
         {pics.map((slide, index) => (
           <img
-            className="carousel__slider__pictures"
+            className="carrousel__slider__pictures"
             key={index}
             src={slide}
             alt=""
@@ -38,22 +41,22 @@ function Slideshow({ slides }) {
         ))}
       </div>
       {length > 1 && (
-        <div className="carousel__commands">
+        <div className="carrousel__commands">
           <button
-            className="carousel__commands__buttons"
+            className="carrousel__commands__buttons"
             onClick={previousSlide}
           >
             <img
-              className="arrow arrow--backward"
+              className="carrousel__commands__arrow backward"
               src={chevronRight}
               alt="Précédent"
             ></img>
           </button>
-          <p className="carousel__commands__photocount">
+          <p className="carrousel__commands__photocount">
             {currentSlide + 1}/{pics.length}
           </p>
-          <button className="carousel__commands__buttons" onClick={nextSlide}>
-            <img className="arrow" src={chevronRight} alt="Suivant"></img>
+          <button className="carrousel__commands__buttons" onClick={nextSlide}>
+            <img className="carrousel__commands__arrow" src={chevronRight} alt="Suivant"></img>
           </button>
         </div>
       )}

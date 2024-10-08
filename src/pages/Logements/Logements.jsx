@@ -1,18 +1,26 @@
 //Import tools
-import { useParams } from 'react-router-dom'
+import { useParams, Navigate } from 'react-router-dom'
 
 //Import Data
-import rentalList from '../data/listeLogements.json'
+import rentalList from '../../data/listeLogements.json'
+
+//Import Styles
+import './logements.scss';
+import '../../components/Collapse/collapse.scss';
 
 //Import Components
-import Slideshow from '../components/Slideshow/Slideshow'
-import Collapse from '../components/Collapse/Collapse'
-import Rating from '../components/Rating/Rating'
-import Tags from '../components/Tags/Tags'
+import Slideshow from '../../components/Slideshow/Slideshow'
+import Collapse from '../../components/Collapse/Collapse'
+import Rating from '../../components/Rating/Rating'
+import Tags from '../../components/Tags/Tags'
 
 function Logements() {
   const { rentalId } = useParams()
   const rental = rentalList.find((i) => i.id === rentalId)
+
+  if (!rental) {
+    return <Navigate to="/error" />
+  }
 
   return (
     <section className="rental-page">
@@ -39,12 +47,12 @@ function Logements() {
       </div>
       <div className="rental-collapse-container">
         <Collapse
-          className="collapse collapse--small"
+          className="collapse collapse-rental"
           title="Description"
           text={rental.description}
         />
         <Collapse
-          className="collapse collapse--small"
+          className="collapse collapse-rental"
           title="Équipements"
           text={rental.equipments.map((equipment, index) => (
             <li key={index}>{equipment}</li>

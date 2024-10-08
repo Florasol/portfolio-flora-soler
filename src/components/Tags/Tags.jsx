@@ -1,6 +1,9 @@
 //Import tools
 import React from 'react'
 
+//Import styles
+import '../../pages/Logements/logements.scss';
+
 //Component
 function Tags({ tag }) {
   return (

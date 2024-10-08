@@ -10,28 +10,17 @@
 	background-color: $primary-color;
 	cursor: pointer;
 	transition: background-color 0.6s ease;
-	// @include desktop-breakpoint {
-	// 	height: 2.9375rem;
-	// 	padding-left: 1.125rem;
-	// }
+	
 	&-section {
 		display: flex;
 		flex-direction: column;
 		margin-bottom: 1.25rem;
-		// @include desktop-breakpoint {
-		// 	margin-bottom: 1.9375rem;
-		// 	padding-right: 6.75rem;
-		// 	padding-left: 6.75rem;
-		// }
 	}
 	&-title {
 		color: #ffffff;
 		font-size: 0.8125rem;
 		font-weight: 500;
 		line-height: 142.6%;
-		// @include desktop-breakpoint {
-		// 	font-size: 1.5rem;
-		// }
 	}
 	&-icon {
 		width: 1.125rem;
@@ -40,12 +29,6 @@
 		margin-left: auto;
 		transition: -webkit-transform 0.6s ease;
 		transition: transform 0.6s ease;
-		// @include recolor(#fff, 1);
-		// @include desktop-breakpoint {
-		// 	width: 1.4375rem;
-		// 	height: 0.875rem;
-		// 	margin-right: 2rem;
-		// }
 	}
 	&-content {
 		overflow: hidden;

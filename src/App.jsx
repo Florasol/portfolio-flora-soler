@@ -3,11 +3,12 @@ import { Navigate } from 'react-router-dom'
 
 //Import Style
 import './App.scss'
+import '../src/SassStyles/main.scss'
 
 //Import Pages
 import Home from './pages/Home'
 import Apropos from './pages/Apropos'
-import Logements from './pages/Logements'
+import Logements from './pages/Logements/Logements'
 import Error from './pages/Error/Error'
 
 //Import Layouts

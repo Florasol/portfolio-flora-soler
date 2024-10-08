@@ -3,8 +3,8 @@
 .banner {
     position: relative;
     height: 223px;
-    margin: 60px auto;
     display: flex;
+    margin-bottom: 40px;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
@@ -28,9 +28,11 @@
     }
     &__title {
         position: absolute;
-        padding: 5%;
         color: white;
         font-size: 48px;  
         font-weight: map-get($font-weight, bold);
+        @include mobile-responsive {
+            font-size: 34px;
+          }
     }
 }

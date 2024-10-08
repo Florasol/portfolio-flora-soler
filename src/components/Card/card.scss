@@ -22,7 +22,7 @@
     &:hover {
         &::before{
             content:"";
-            background-color: darken($primary-color, 50%);
+            background-color: lighten($secondary-color, 50%);
             opacity: 30%;
         }
     }

@@ -6,13 +6,18 @@
 @import './mixins.scss';
 @import './global.scss';
 
-// // Components
-// @import '../components/Banner.jsx';
-// @import '../components/Card.jsx';
-// @import '../layouts/Header.jsx';
-// @import '../layouts/Footer.jsx';
+// //Components 
+// @import "./components/banner";
+// @import "./components/card";
+// @import "./components/slideshow";
+// @import "./components/collapse";
+// @import "./layouts/footer";
+// @import "./layouts/header";
+// @import "./components/rating";
+// @import "./components/tags";
 
 // // Pages 
-// @import '../pages/Apropos.jsx';
-// @import '../pages/Home.jsx';
-// @import '../pages/Logements.jsx';
+// @import "./pages/error";
+// @import "./pages/logements";
+// @import "./pages/apropos";
+// @import "./pages/home";
