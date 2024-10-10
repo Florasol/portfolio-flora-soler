@@ -45,21 +45,21 @@ function Logements() {
           <Rating rating={rental.rating} />
         </div>
       </div>
-      <div className="rental-collapse-container">
+      <section className='collapse-rental-container'>
         <Collapse
-          className="collapse collapse-rental"
+          className="collapse-rental"
           title="Description"
-          text={rental.description}
+          content={rental.description}
         />
         <Collapse
-          className="collapse collapse-rental"
+          className="collapse-rental"
           title="Équipements"
-          text={rental.equipments.map((equipment, index) => (
+          content={rental.equipments.map((equipment, index) => (
             <li key={index}>{equipment}</li>
           ))}
           state={true}
         />
-      </div>
+        </section>
     </section>
   )
 }

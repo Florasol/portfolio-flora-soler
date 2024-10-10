@@ -1,5 +1,5 @@
 //Import tools
-import React, { useState, useRef } from 'react'
+import React, { useState } from 'react'
 
 //Import image
 import toggleArrow from '../../assets/chevron-solid.svg'
@@ -7,68 +7,25 @@ import toggleArrow from '../../assets/chevron-solid.svg'
 // Import styles
 import './collapse.scss';
 
-function Collapse({ title, content }) {
-	/* This is setting the initial state of the collapse. */
-	const [setActive, setActiveState] = useState('')
-	/* This is setting the initial height of the collapse to 0px. */
-	const [setHeight, setHeightState] = useState('0px')
-	/* This is setting the initial state of the rotate class. */
-	const [setRotate, setRotateState] = useState('collapse-icon')
-
-	/* This is setting the contentCollapse to a ref. This is used to get the height of the content. */
-	const contentCollapse = useRef(null)
-
-	/**
-	 * The function toggles the collapse by changing the active state, the height state, and the rotate
-	 * state
-	 */
-	const toggleCollapse = () => {
-		setActiveState(setActive === '' ? 'active' : '')
-		setHeightState(
-			setActive === 'active'
-				? '0px'
-				: `${contentCollapse.current.scrollHeight}px`
-		)
-		setRotateState(
-			setActive === 'active' ? 'collapse-icon' : 'collapse-icon rotate'
-		)
+//Component
+function Collapse({ title, content, className }) {
+	const [open, setOpen] = useState(false)
+	const toggle = () => {
+	  setOpen(!open)
 	}
-
-	/* This is a way to check if the content is an array or not. If it is not an array, it will push the
-	content into the contentArray. If it is an array, it will loop through the array and push each item into
-	the contentArray. */
-	const contentArray = []
-	if (!Array.isArray(content)) {
-		contentArray.push(content)
-	} else {
-		for (let i = 0; i < 9; i++) {
-			contentArray.push(content[i])
-		}
-	}
-
 	return (
-		<div className="collapse-section">
-			{/* This is the button that is used to toggle the collapse. */}
-			<button
-				className={`collapse ${setActive}`}
-				onClick={toggleCollapse}
-			>
-				<span className="collapse-title">{title}</span>
-				<img src={toggleArrow} className={`${setRotate}`} alt="" />
-			</button>
-			<div
-				ref={contentCollapse}
-				style={{ maxHeight: `${setHeight}` }}
-				className="collapse-content"
-			>
-				<div className="collapse-text">
-					{contentArray.map((content, index) => (
-						<div key={`${content}-${index}`}>{content}</div>
-					))}
-				</div>
-			</div>
-		</div>
+	  <div className={className}>
+		<button className="collapse__title-container" onClick={toggle}>
+		  <h2 className="collapse__title-container__title">{title}</h2>
+		  <img
+			className={!open ? 'expand_arrow' : 'expand_arrow expand_arrow--opened'}
+			src={toggleArrow}
+			alt="Cliquez-ici pour dérouler le texte"
+		  />
+		</button>
+		{open && <div className="collapse__text">{content}</div>}
+	  </div>
 	)
-}
-
-export default Collapse
+  }
+  
+  export default Collapse

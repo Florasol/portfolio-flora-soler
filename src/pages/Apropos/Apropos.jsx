@@ -1,9 +1,12 @@
 // Import components
-import Banner from '../components/Banner/Banner'
-import Collapse from '../components/Collapse/Collapse'
+import Banner from '../../components/Banner/Banner'
+import Collapse from '../../components/Collapse/Collapse'
 
 // Import image
-import aproposBanner from '../assets/aproposBanner.jpg'
+import aproposBanner from '../../assets/aproposBanner.jpg'
+
+// Import style
+import './apropos.scss';
 
 function APropos() {
     const aproposData = [
@@ -35,14 +38,14 @@ function APropos() {
             title=""
             className="banner"
             />
-            {/* Renvoie un composant Collapse pour chaque élément du tableau - array aproposData */}
-			{aproposData.map((apropos, index) => (
+			{aproposData.map((item) => (
 				<Collapse
-					title={apropos.title}
-					content={apropos.content}
-					key={`${apropos.title}-${index}`}
+					key={item.title}
+					title={item.title}
+					content={item.content}
+					className="collapse-apropos"
 				/>
-			))}
+				))}
         </div>
     )
 }
