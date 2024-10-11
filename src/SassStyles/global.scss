@@ -11,8 +11,4 @@ html {
 	@include main-typography;
 }
 
-h1 {
-    color: $primary-color;
-	@include title-typography;
-}
   

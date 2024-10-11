@@ -10,17 +10,16 @@ import './slideshow.scss';
 
 //Component
 function Slideshow({ slides }) {
-  const pics = slides
-  const length = slides.length
 
   const [currentSlide, setCurrentSlide] = useState(0)
-
-  const previousSlide = () => {
+  const length = slides.length
+  
+  function previousSlide () {
     const index = currentSlide > 0 ? currentSlide - 1 : length - 1
     setCurrentSlide(index)
   }
 
-  const nextSlide = () => {
+  function nextSlide() {
     const index = currentSlide < length - 1 ? currentSlide + 1 : 0
     setCurrentSlide(index)
   }
@@ -31,7 +30,7 @@ function Slideshow({ slides }) {
         className="carrousel__slider"
         style={{ transform: `translateX(${-currentSlide * 100}%)` }}
       >
-        {pics.map((slide, index) => (
+        {slides.map((slide, index) => (
           <img
             className="carrousel__slider__pictures"
             key={index}
@@ -53,7 +52,7 @@ function Slideshow({ slides }) {
             ></img>
           </button>
           <p className="carrousel__commands__photocount">
-            {currentSlide + 1}/{pics.length}
+            {currentSlide + 1}/{slides.length}
           </p>
           <button className="carrousel__commands__buttons" onClick={nextSlide}>
             <img className="carrousel__commands__arrow" src={chevronRight} alt="Suivant"></img>
