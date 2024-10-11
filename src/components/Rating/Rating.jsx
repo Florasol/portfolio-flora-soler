@@ -9,28 +9,21 @@ import redStar from '../../assets/star-solid-red.svg'
 import '../../pages/Logements/logements.scss';
 
 function Rating({ rating }) {
-  const range = [1, 2, 3, 4, 5]
+  const totalStars = 5;
+  const range = [...Array(totalStars).keys()]; 
+
   return (
     <div className="rating-container">
-      {range.map((rangeElem) =>
-        rating >= rangeElem ? (
-          <img
-            className="rating-container__stars"
-            src={redStar}
-            alt="score du logement"
-            key={rangeElem.toString()}
-          />
-        ) : (
-          <img
-            className="rating-container__stars"
-            src={greyStar}
-            alt="score du logement"
-            key={rangeElem.toString()}
-          />
-        )
-      )}
+      {range.map((index) => (
+        <img
+          key={index}
+          className="rating-container__stars"
+          src={index < rating ? redStar : greyStar}
+          alt="score du logement"
+        />
+      ))}
     </div>
-  )
+  );
 }
 
-export default Rating
+export default Rating;

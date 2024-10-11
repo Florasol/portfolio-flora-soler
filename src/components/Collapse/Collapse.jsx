@@ -10,7 +10,7 @@ import './collapse.scss';
 //Component
 function Collapse({ title, content, className }) {
 	const [open, setOpen] = useState(false)
-	const toggle = () => {
+	function toggle() {
 	  setOpen(!open)
 	}
 	return (

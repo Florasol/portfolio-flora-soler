@@ -13,7 +13,7 @@ function Slideshow({ slides }) {
 
   const [currentSlide, setCurrentSlide] = useState(0)
   const length = slides.length
-  
+
   function previousSlide () {
     const index = currentSlide > 0 ? currentSlide - 1 : length - 1
     setCurrentSlide(index)
@@ -40,22 +40,22 @@ function Slideshow({ slides }) {
         ))}
       </div>
       {length > 1 && (
-        <div className="carrousel__commands">
+        <div className="carrousel__prevnext">
           <button
-            className="carrousel__commands__buttons"
+            className="carrousel__prevnext__buttons"
             onClick={previousSlide}
           >
             <img
-              className="carrousel__commands__arrow backward"
+              className="carrousel__prevnext__arrow backward"
               src={chevronRight}
               alt="Précédent"
             ></img>
           </button>
-          <p className="carrousel__commands__photocount">
+          <p className="carrousel__prevnext__compteur">
             {currentSlide + 1}/{slides.length}
           </p>
-          <button className="carrousel__commands__buttons" onClick={nextSlide}>
-            <img className="carrousel__commands__arrow" src={chevronRight} alt="Suivant"></img>
+          <button className="carrousel__prevnext__buttons" onClick={nextSlide}>
+            <img className="carrousel__prevnext__arrow" src={chevronRight} alt="Suivant"></img>
           </button>
         </div>
       )}

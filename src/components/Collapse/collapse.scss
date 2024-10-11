@@ -14,9 +14,9 @@
         &__title {
             color: white;
             font-size: 24px;
-            font-weight: map-get($font-weight, regular);
+            font-weight: map-get($font-weight, bold);
             @include mobile-responsive {
-                font-size: 13px;
+                font-size: 16px;
             }
         }
 
@@ -28,7 +28,7 @@
         background-color: $background-color;
         border-radius: $border-radius-s;
         @include mobile-responsive {
-            font-size: 12px;           
+            font-size: 14px;           
         }
     }
 }

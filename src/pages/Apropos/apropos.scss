@@ -12,6 +12,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        cursor: pointer;
         @include mobile-responsive {
             width: 100%;
         }
@@ -22,5 +23,8 @@
     }
     .collapse__text {
         width: 80%;
+        @include mobile-responsive {
+            width: 100%;
+        }
     }
 }
