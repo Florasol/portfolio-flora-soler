@@ -9,34 +9,28 @@
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
-  }
-  @media all and (max-width: 768px) {
-    .rental-info-container {
-      display: flex;
-      flex-direction: column;
-      margin: 15px auto;
-    }
+      @include mobile-responsive {  
+          display: flex;
+          flex-direction: column;
+          margin: 15px auto;
+      }
   }
   
   .rental-info__title {
     margin: 0;
     font-size: 36px;
     font-weight: 500;
-  }
-  @media all and (max-width: 768px) {
-    .rental-info__title {
-      font-size: 18px;
-    }
+    @include mobile-responsive { 
+        font-size: 18px;
+      }
   }
   .rental-info__location {
     font-size: 18px;
     margin: 10px 0px;
     font-weight: map-get($font-weight, regular);
-  }
-  @media all and (max-width: 768px) {
-    .rental-info__location {
-      font-size: 14px;
-    }
+      @include mobile-responsive {
+          font-size: 14px;
+      }
   }
   
   .tags {
@@ -67,26 +61,25 @@
     }
 }
 
-  .renter-info {
+  .host-info {
     display: flex;
     flex-direction: column;
     gap: 15px;
-  }
-  @media all and (max-width: 768px) {
-    .renter-info {
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
+  
+      @include mobile-responsive {
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap;
+      }
     }
-  }
 
   
-  .renter-info__identity {
+  .host-info__identity {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 10px;
+    gap: 15px;
         &__name {
             width: 100px;
             text-align: right;

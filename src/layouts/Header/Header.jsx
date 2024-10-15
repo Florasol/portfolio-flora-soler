@@ -8,7 +8,7 @@ import logoKasa from "../../assets/logoKasa.svg"
 import './header.scss';
 
 
-const Header = () => {
+function Header() {
     return (
        <header className='header'>
          <Link to="/">

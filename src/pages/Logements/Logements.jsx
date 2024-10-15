@@ -18,6 +18,7 @@ function Logements() {
   const { rentalId } = useParams()
   const rental = rentalList.find((i) => i.id === rentalId)
 
+  // Redirection en cas d'erreur d'id
   if (!rental) {
     return <Navigate to="/error" />
   }
@@ -33,11 +34,11 @@ function Logements() {
             <Tags tag={rental.tags} />
           </div>
         </div>
-        <div className="renter-info">
-          <div className="renter-info__identity">
-            <p className="renter-info__identity__name">{rental.host.name}</p>
+        <div className="host-info">
+          <div className="host-info__identity">
+            <p className="host-info__identity__name">{rental.host.name}</p>
             <img
-              className="renter-info__identity__pic"
+              className="host-info__identity__pic"
               src={rental.host.picture}
               alt=""
             />

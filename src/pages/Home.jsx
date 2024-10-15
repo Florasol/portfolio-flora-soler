@@ -8,7 +8,7 @@ import homeBanner from '../assets/accueilBanner.jpg'
 // Data
 import listeLogements from '../data/listeLogements.json'
 
-const Home = () => {
+function Home() {
     return (
         <div>
             <Banner

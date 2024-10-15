@@ -1,23 +1,5 @@
-// Import the color module
-// @use 'sass:color';  
-
 // Styles
-@import './variables.scss';
-@import './mixins.scss';
-@import './global.scss';
+@import './variables';
+@import './mixins';
+@import './global';
 
-// //Components 
-// @import "./components/banner";
-// @import "./components/card";
-// @import "./components/slideshow";
-// @import "./components/collapse";
-// @import "./layouts/footer";
-// @import "./layouts/header";
-// @import "./components/rating";
-// @import "./components/tags";
-
-// // Pages 
-// @import "../../pages/Error/Error";
-// @import "../../pages/Logements/Logements";
-// @import "./pages/apropos";
-// @import "./pages/home";
