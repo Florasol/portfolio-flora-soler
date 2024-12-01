@@ -22,6 +22,10 @@ function Header() {
             <NavLink to="/apropos" className='nav__item'>
                A Propos
             </NavLink>
+
+            <NavLink to="/vosimpressions" className='nav__item'>
+               Vos impressions
+            </NavLink>
          </nav>
       </header>
    )

@@ -7,6 +7,7 @@ import './App.scss'
 import Home from './pages/Home'
 import Apropos from './pages/Apropos/Apropos'
 import Logements from './pages/Logements/Logements'
+import Vosimpressions from './pages/Vosimpressions/Vosimpressions'
 import Error from './pages/Error/Error'
 
 //Import Layouts
@@ -23,6 +24,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/logements/:rentalId" element={<Logements />} />
           <Route path="/apropos" element={<Apropos />} />
+          <Route path="/vosimpressions" element={<Vosimpressions />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </div>

@@ -8,6 +8,7 @@ import homeBanner from '../assets/homebanner.jpg'
 // Data
 import listeLogements from '../data/listeLogements.json'
 
+
 function Home() {
     return (
         <div>

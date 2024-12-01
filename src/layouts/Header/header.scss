@@ -7,6 +7,9 @@
     align-items: center;
     margin-bottom: 30px;
     padding: 0 60px 0 80px;
+    @include mobile-responsive {
+      padding: 0 20px 0 20px;
+   }
 
     .nav {
             display: flex;
@@ -18,9 +21,14 @@
                 text-decoration: none;
                 font-size: 20px;
                 padding: 30px 60px 30px 60px;
+                @include tablet-responsive {
+                  font-size: 16px;
+                  padding: 20px 20px 20px 20px;
+                  text-transform: uppercase;
+               }
                 @include mobile-responsive {
-                   font-size: 16px;
-                   padding: 0 0 0 30px;
+                   font-size: 14px;
+                   padding: 20px 20px 20px 20px;
                    text-transform: uppercase;
                 }
              }
@@ -35,6 +43,9 @@
     }
     &__logo {
       width: 150px;
+      @include mobile-responsive {
+         width: 120px;
+      }
   }
     
 }
