@@ -9,6 +9,7 @@ body {
 
 html {
 	@include main-typography;
+    background: linear-gradient($third-color, white, $primary-color);
 }
 
   

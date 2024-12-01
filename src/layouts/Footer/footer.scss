@@ -4,14 +4,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000000;
+    background-color: $primary-color;
     margin-top: 50px;
+    border-top: 2px solid white;
     &__logo {
         width: 120px;
-        margin-top: 3em;
-        margin-bottom: 2em;
+        margin-top: 20px;
         filter: brightness(5);
         justify-content: center;
+        border: 2px solid $secondary-color;
     }
     &__rights {
         color: white;

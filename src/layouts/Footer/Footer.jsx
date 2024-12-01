@@ -1,5 +1,5 @@
 //Import Images
-import logoKasaWhite from '../../assets/logoKasa.svg'
+import logoFlora from '../../assets/logoFloraSolerdev.png'
 
 // Import styles
 import './footer.scss';
@@ -8,8 +8,8 @@ import './footer.scss';
 function Footer() {
   return (
     <footer className="footer">
-      <img className="footer__logo" src={logoKasaWhite} alt="Kasa Logo White" />
-      <p className="footer__rights">© 2020 Kasa. All rights reserved</p>
+      <img className="footer__logo" src={logoFlora} alt="Logo Flora Soler" />
+      <p className="footer__rights">© 2024 Flora Soler</p>
     </footer>
   )
 }

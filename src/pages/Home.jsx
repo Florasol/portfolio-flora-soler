@@ -3,7 +3,7 @@ import Banner from '../components/Banner/Banner'
 import Card from '../components/Card/Card'
 
 // Image Banner
-import homeBanner from '../assets/accueilBanner.jpg'
+import homeBanner from '../assets/homebanner.jpg'
 
 // Data
 import listeLogements from '../data/listeLogements.json'
@@ -13,7 +13,7 @@ function Home() {
         <div>
             <Banner
             picture={homeBanner}
-            title="Chez vous, partout et ailleurs"
+            title="Développeuse JAVA"
             className="banner"
             />
             <section className="rental-section">

@@ -16,8 +16,9 @@ import Footer from './layouts/Footer/Footer'
 function App() {
   return (
     <BrowserRouter>
+    <Header />
       <div className='app-container'>
-      <Header />
+      
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/logements/:rentalId" element={<Logements />} />

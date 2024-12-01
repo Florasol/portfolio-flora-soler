@@ -3,7 +3,7 @@ import Banner from '../../components/Banner/Banner'
 import Collapse from '../../components/Collapse/Collapse'
 
 // Import image
-import aproposBanner from '../../assets/aproposBanner.jpg'
+import aproposBanner from '../../assets/aproposbanner.jpeg'
 
 // Import style
 import './apropos.scss';

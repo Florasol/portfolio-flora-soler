@@ -18,8 +18,8 @@
         display: block;
         z-index: 0;
         content:"";
-        background-color: black;
-        opacity: 50%;
+        background-color: $third-color;
+        opacity: 20%;
     }
     &__img {
         width: 100%; 
