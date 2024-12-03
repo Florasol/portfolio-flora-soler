@@ -1,0 +1,18 @@
+@import '../../SassStyles/main';
+
+.cv-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .cv-image {
+    width: 300px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    transition: box-shadow 0.3s ease;
+  
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+  }

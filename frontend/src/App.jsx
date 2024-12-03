@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.scss'
 
 //Import Pages
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
 import Apropos from './pages/Apropos/Apropos'
 import Logements from './pages/Logements/Logements'
 import Vosimpressions from './pages/Vosimpressions/Vosimpressions'
