@@ -1,53 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 import "./cv.scss";
 
-// Path to the image in the 'src/assets' folder
-const imagePath = require('../../assets/CV_SOLER_2024_Accenture.jpg');
-
 function CvPreview() {
-  // State variable for managing zoomed image
-  const [zoomedImage, setZoomedImage] = useState(null);
-
-  // Function to open zoomed image
-  const openZoomedImage = () => {
-    setZoomedImage(imagePath);  // Set the zoomed image to the imported image path
-  };
-
-  // Function to close zoomed image
-  const closeZoomedImage = () => {
-    setZoomedImage(null);
-  };
-
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "/assets/CV_SOLER_2024_Accenture.pdf"; // Chemin vers le fichier
+        link.download = "CV_SOLER_2024_Accenture.pdf"; // Nom du fichier téléchargé
+        link.click();
+      };
   return (
-    <>
-      {/* Render the clickable image */}
-      <div onClick={openZoomedImage}>
-        <img
-          src={imagePath}  // Use the correct path to display the image
-          alt="CV Preview"
-          width={300}  // Adjust the width as needed
-          style={{ objectFit: "cover" }}  // Apply the objectFit style directly
-        />
-      </div>
-
-      {/* Render the zoomed image */}
-      {zoomedImage && (
-        <div className="zoomed-image-container" onClick={closeZoomedImage}>
-          <img
-            src={zoomedImage}
-            alt="zoomed-image"
-            style={{ width: "100%", height: "auto", objectFit: "contain" }}
-          />
+    <div className="cv-container">
+      <img onClick={handleDownload}
+        src="/assets/CV_SOLER_2024_Accenture.jpg"
+        alt="CV Preview"
+        className="cv-image"
+      />
+      <img src="/assets/downloadicon.png" className="download-button" 
+      />
+      <div className="text-icons">
+        <div className="text">
+      <img src="/assets/quotesicon.png" className="quotes" 
+      />
+      <p className="intro-text"><i>Ma passion des langues étrangères a guidé mes expériences professionnelles au fil des voyages et m’amène à présent aux langages informatiques. <br/><br/>Actuellement alternante chez <strong>Accenture</strong>, mon but est d’évoluer en tant que développeuse JAVA.</i>
+        </p>
         </div>
-      )}
-    </>
+      </div>
+      
+    </div>
+    
+
+    
   );
 }
 
 export default CvPreview;
-
-
-
-
-
-

@@ -1,16 +1,21 @@
-.cv-container {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .cv-image {
-    width: 300px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    margin: 0 auto;
-    transition: box-shadow 0.3s ease;
-  
-    &:hover {
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+@import '../../SassStyles/main';
+
+.projects {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 0px 0px;
+    width: 100%;
+    &__title {
+        width: 100vw;
+        margin: 0;
+        text-align: center;
+        background-color: $third-color;
+        color: rgb(184, 94, 144);
+        font-size: 42px;
+        font-weight: 700;
+        padding-block: 50px;
+        @include mobile-responsive {
+            font-size: 30px;
+        }
     }
-  }
+}

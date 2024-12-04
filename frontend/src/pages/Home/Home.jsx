@@ -9,6 +9,9 @@ import homeBanner from '../../assets/homebanner.jpg'
 // Data
 import listeLogements from '../../data/listeProjets.json'
 
+// Import style
+import './home.scss';
+
 
 function Home() {
     return (
@@ -18,10 +21,13 @@ function Home() {
             title="Développeuse JAVA"
             className="banner"
             />
-            <section className="cv-liens">
-                <div className='cv-preview'>
+            <section className="links-container">
                 <CvPreview />
-                </div>
+            </section>
+            <section className="projects">
+                <div>
+                    <p className='projects__title'>Mes projets</p>
+                    </div>
             </section>
             <section className="rental-section">
                 <div className="rental-section__cards-container">

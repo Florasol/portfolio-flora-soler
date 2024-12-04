@@ -2,8 +2,8 @@
 import React from 'react'
 
 //Import images
-import greyStar from '../../assets/star-solid.svg'
-import redStar from '../../assets/star-solid-red.svg'
+import greyStar from '../../assets/dot-solid.png'
+import redStar from '../../assets/dot-solid-red.png'
 
 //Import styles
 import '../../pages/Logements/logements.scss';

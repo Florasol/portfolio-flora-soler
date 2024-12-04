@@ -16,20 +16,22 @@
       }
   }
   
-  .rental-info__title {
-    margin: 0;
-    font-size: 36px;
-    font-weight: 500;
-    @include mobile-responsive { 
+  .rental-info {
+      &__title {
+        margin: 0;
+        font-size: 36px;
+        font-weight: 500;
+        @include mobile-responsive { 
+            font-size: 18px;
+          }
+        }
+      &__location {
         font-size: 18px;
-      }
-  }
-  .rental-info__location {
-    font-size: 18px;
-    margin: 10px 0px;
-    font-weight: map-get($font-weight, regular);
-      @include mobile-responsive {
-          font-size: 14px;
+        margin: 10px 0px;
+        font-weight: map-get($font-weight, regular);
+          @include mobile-responsive {
+              font-size: 14px;
+          }
       }
   }
   
@@ -98,6 +100,15 @@
                 width: 32px;
             }
         }
+        
+  }
+
+  .level {
+    font-size: 18px;
+    text-align: end;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
   }
 
   .rating-container {

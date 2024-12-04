@@ -43,6 +43,7 @@ function Logements() {
               alt=""
             />
           </div>
+          <p className='level'>Niveau de maîtrise :</p>
           <Rating rating={rental.rating} />
         </div>
       </div>

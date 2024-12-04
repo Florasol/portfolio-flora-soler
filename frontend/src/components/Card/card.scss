@@ -20,12 +20,21 @@
     }
  
     &:hover {
+
         &::before{
             content:"";
             background-color: lighten($secondary-color, 50%);
             opacity: 30%;
         }
+        .card__title {
+            opacity: 0; // Change opacity on hover
+        }
+    
+    .card__title {
+        transition: opacity 200ms ease-in-out; // Smooth transition for opacity change
     }
+    }
+    
     &::before {
         position: absolute;
         right: 0px;
@@ -36,7 +45,7 @@
         content:"";
         transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
         height: -50%; /* Ajuste la hauteur de l'ombre */
-        background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+        background: linear-gradient(to top, rgba(135, 12, 102, 0.6), rgba(0, 0, 0, 0.3));
     }
     &__img {
         width: 100%;
@@ -45,9 +54,10 @@
     }
     &__title{
         position: absolute;
-        bottom: 0;
-        width:70%;
-        font-size: 18px;
+        text-align: center;
+        top: 40%;
+        width:100%;
+        font-size: 22px;
         line-height: 25px;
         color: white;
         padding: 5%;
@@ -59,11 +69,10 @@
 }
 
 .rental-section {
-    background-color: #F6F6F6;
+    background-color: none;
     padding: 50px 50px;
     border-radius: 25px;
     @include mobile-responsive {
-        background-color: white;
         padding: 20px 0px;
         }
     &__cards-container {

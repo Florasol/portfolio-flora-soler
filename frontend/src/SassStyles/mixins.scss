@@ -19,9 +19,11 @@
 // Typo 
 @mixin main-typography {
 	font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
 	font-size: map-get($font-size, text);
 	@include mobile-responsive {
 		font-size: map-get($font-size, mobile-text);
+        line-height: 1.4;
 	}
 }
 

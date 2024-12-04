@@ -23,12 +23,15 @@
                 padding: 30px 60px 30px 60px;
                 @include tablet-responsive {
                   font-size: 16px;
+
+                  font-weight: 500;
                   padding: 20px 20px 20px 20px;
                   text-transform: uppercase;
                }
                 @include mobile-responsive {
-                   font-size: 14px;
-                   padding: 20px 20px 20px 20px;
+                   font-size: 12px;
+                   font-weight: 500;
+                   padding: 15px 15px 15px 15px;
                    text-transform: uppercase;
                 }
              }

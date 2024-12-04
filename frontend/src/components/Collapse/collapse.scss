@@ -15,14 +15,16 @@
             color: white;
             font-size: 24px;
             font-weight: map-get($font-weight, bold);
+            line-height: 3; // Ajustez ici l'interligne du texte principal
             @include mobile-responsive {
-                font-size: 16px;
-            }
+            font-size: 14px;
+            line-height: 1.4; // Interligne spécifique pour mobile
+        }
         }
 
     }
     &__text {
-        padding: 10px;
+        padding: 20px;
         font-size: 18px;
         font-weight: map-get($font-weight, light);
         background-color: $background-color;
