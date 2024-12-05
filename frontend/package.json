@@ -15,9 +15,12 @@
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
     "sass": "^1.79.3",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://florasol.github.io/portfolio-flora-soler/"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
