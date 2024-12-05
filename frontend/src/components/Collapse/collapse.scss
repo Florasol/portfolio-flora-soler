@@ -14,11 +14,9 @@
         &__title {
             color: white;
             font-size: 24px;
-            font-weight: map-get($font-weight, bold);
-            line-height: 3; // Ajustez ici l'interligne du texte principal
+            font-weight: map-get($font-weight, bold); 
             @include mobile-responsive {
             font-size: 14px;
-            line-height: 1.4; // Interligne spécifique pour mobile
         }
         }
 

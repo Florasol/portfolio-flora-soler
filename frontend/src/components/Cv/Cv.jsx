@@ -9,6 +9,17 @@ function CvPreview() {
         link.click();
       };
   return (
+    <div className="cv-preview">
+            <div className="contact-icons">
+                <a href="https://linkedin.com/in/florasoler" target="_blank">
+              <img src="/assets/linkedinicon.png" className="icon-button" 
+              />
+                </a>
+                <a href="mailto:floralu.soler@gmail.com" target="_blank">
+              <img src="/assets/gmailicon.png" className="icon-button" 
+              />
+                </a>
+            </div>
     <div className="cv-container">
       <img onClick={handleDownload}
         src="/assets/CV_SOLER_2024_Accenture.jpg"
@@ -28,7 +39,7 @@ function CvPreview() {
       
     </div>
     
-
+    </div>
     
   );
 }
