@@ -13,10 +13,8 @@
     "react-modal": "^3.16.1",
     "react-pdf": "^9.1.1",
     "react-router-dom": "^6.26.2",
-    "react-scripts": "5.0.1",
     "sass": "^1.79.3",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://florasol.github.io/portfolio-flora-soler/"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -43,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0",
+    "react-scripts": "5.0.1"
   }
 }
