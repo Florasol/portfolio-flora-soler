@@ -46,3 +46,14 @@
     color: green;
     font-weight: bold;
   }
+
+  .message-display-container {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    @include mobile-responsive {
+      gap: 20px;
+  }
+}
+  

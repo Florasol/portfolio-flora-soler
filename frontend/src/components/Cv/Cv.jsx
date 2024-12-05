@@ -32,7 +32,7 @@ function CvPreview() {
         <div className="text">
       <img src="/assets/quotesicon.png" className="quotes" 
       />
-      <p className="intro-text"><i>Ma passion des langues étrangères a guidé mes expériences professionnelles au fil des voyages et m’amène à présent aux langages informatiques. <br/><br/>Actuellement alternante chez <strong>Accenture</strong>, mon but est d’évoluer en tant que développeuse JAVA.</i>
+      <p className="intro-text"><i>Ma passion des langues étrangères a guidé mes expériences professionnelles au fil des voyages et m’amène à présent aux langages informatiques. <br/><br/>Actuellement alternante chez <a href="https://www.accenture.com/fr-fr" target="_blank"><strong>Accenture</strong></a>, mon but est d’évoluer en tant que développeuse JAVA.</i>
         </p>
         </div>
       </div>
