@@ -8,7 +8,7 @@ import toggleArrow from '../../assets/chevron-solid.svg'
 import './collapse.scss';
 
 //Component
-function Collapse({ title, content, className }) {
+function Collapse({ title, icon, content, className }) {
 	const [open, setOpen] = useState(false)
 	function toggle() {
 	  setOpen(!open)
@@ -23,7 +23,13 @@ function Collapse({ title, content, className }) {
 			alt="Cliquez-ici pour dérouler le texte"
 		  />
 		</button>
-		{open && <div className="collapse__text">{content}</div>}
+			{open && (
+			<div className="collapse__text">
+				{React.cloneElement(icon, { className: 'collapse__icon' })}
+				<br/>
+				{content}
+			</div>
+			)}
 	  </div>
 	)
   }
