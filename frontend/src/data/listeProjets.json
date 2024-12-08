@@ -2,7 +2,7 @@
 [
 	{
 		"id": "c67ab8a7",
-		"title": "Back-end d'un site de notation de livres",
+		"title": "NODE.JS: Back-end d'un site de notation de livres",
 		"cover": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/cover1.png",
 		"pictures": [
 			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo1.png",
@@ -14,10 +14,10 @@
 		"description": "Développeuse back-end en freelance depuis maintenant un an dans la région de Lille, je travaille avec Kévin, un développeur front-end plus expérimenté qui a déjà un bon réseau de contacts dans le milieu. Nous mutualisons nos compétences front / back sur un tout nouveau projet qui lui a été proposé. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire.",
 		"host": {
 			"name": "Openclassrooms",
-			"picture": "/assets/projects/openclassroomslogo.png"
+			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
 		},
 		"rating": "4",
-		"location": "Formation en ligne",
+		"location": "Projet de formation",
 		"equipments": [
 			"Développement back-end: Node.js, Express et MongoDB. Essentiel pour créer des applications web modernes et performantes.",
 			"Maîtrise des opérations CRUD, de la sécurité des données et de l'authentification. ",
@@ -33,30 +33,24 @@
 	},
 	{
 		"id": "b9123946",
-		"title": "Magnifique appartement proche Canal Saint Martin",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+		"title": "JAVASCRIPT: Portfolio dynamique",
+		"cover": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project2/cover2.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project2/photo1.png",
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project2/photo2.png",
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project2/photo3.png"
 		],
 		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
 		"host": {
-			"name": "Della Case",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+			"name": "Openclassrooms",
+			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
 		},
-		"rating": "4",
-		"location": "Ile de France - Paris 10e",
+		"rating": "3",
+		"location": "Projet de formation",
 		"equipments": [
-			"Parking",
-			"Sèche Cheveux",
-			"Machine à laver",
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision"
+			"Création de pages web dynamiques avec JavaScript est essentielle dans le développement web.",
+			"Gestion des interaction utilisateurs et communication avec des APIs",
+			"Préparation pour des projets de développement web plus avancés et évolution vers un Front-End complet et recherché"
 		],
 		"tags": [
 			"Canal Saint Martin",
@@ -66,7 +60,7 @@
 	},
 	{
 		"id": "46d188c5",
-		"title": "Studio de charme - Buttes Chaumont",
+		"title": "SEO: optimisation d'un site de photographe",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
@@ -76,11 +70,11 @@
 		],
 		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
 		"host": {
-			"name": "Franck Maher",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
+			"name": "Openclassrooms",
+			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
 		},
-		"rating": "3",
-		"location": "Ile de France - Paris 20e",
+		"rating": "5",
+		"location": "Projet de formation",
 		"equipments": [
 			"Wi-fi",
 			"Cuisine équipée",
@@ -95,7 +89,7 @@
 	},
 	{
 		"id": "7af00cd6",
-		"title": "Nid douillet au coeur du 11ème",
+		"title": "GESTION DE PROJET: application de création de menu",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
@@ -105,11 +99,11 @@
 		],
 		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
 		"host": {
-			"name": "Della Case",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-1.jpg"
+			"name": "Openclassrooms",
+			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
 		},
-		"rating": "3",
-		"location": "Ile de France - Paris 11e",
+		"rating": "5",
+		"location": "Projet de formation",
 		"equipments": [
 			"Micro-Ondes",
 			"Wi-fi",
@@ -126,7 +120,7 @@
 	},
 	{
 		"id": "0979876d",
-		"title": "Appartement de Standing - 10e",
+		"title": "REACT: Application web de location immobilière",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
@@ -138,11 +132,11 @@
 		],
 		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
 		"host": {
-			"name": "Franck Maher",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-2.jpg"
+			"name": "Openclassrooms",
+			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
 		},
-		"rating": "5",
-		"location": "Ile de France - Paris 10e",
+		"rating": "4",
+		"location": "Projet de formation",
 		"equipments": [
 			"Frigo Américain",
 			"Sèche Cheveux",
@@ -157,7 +151,7 @@
 	},
 	{
 		"id": "f72a452f",
-		"title": "Studio d'artiste",
+		"title": "HTML-CSS-BOOTSTRAP: site vitrine",
 		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
 		"pictures": [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
@@ -168,11 +162,11 @@
 		],
 		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
 		"host": {
-			"name": "Line Rolland",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-3.jpg"
+			"name": "Projet personnel",
+			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
 		},
-		"rating": "5",
-		"location": "Ile de France - Paris 18e",
+		"rating": "4",
+		"location": "Projet de formation",
 		"equipments": [
 			"Chambre Séparée",
 			"Parking"
