@@ -40,7 +40,7 @@ function CvPreview() {
                 <div className="intro">
                 <img src={quotesicon} className="intro__quotes" 
                 />
-              <p className="intro__text">Bonjour et bienvenue sur mon portfolio ! Je suis Flora, j'ai 32 ans. J'ai passé ma vingtaine à explorer, aussi bien d'un point de vue géographique que professionnel: tourisme, vidéo, éducation... <br/><br/>Je me consacre maintenant à ma passion pour l'informatique, qui m'accompagne depuis mon enfance (Windows 98!). <br/><br/>Actuellement, développeuse JAVA chez <a href="https://www.accenture.com/fr-fr" target="_blank"><strong>Accenture</strong></a>, je m'efforce chaque jour de relever de nouveaux défis et de continuer à apprendre dans ce domaine en constante évolution.
+              <p className="intro__text">Bonjour et bienvenue sur mon portfolio ! Je suis Flora, j'ai 32 ans. <br/><br/>J'ai passé ma vingtaine à explorer, aussi bien d'un point de vue géographique que professionnel: tourisme, vidéo, éducation... <br/><br/>Je me consacre maintenant à ma passion pour l'informatique, qui m'accompagne depuis mon enfance (Windows 98!). <br/><br/>Actuellement, développeuse JAVA chez <a href="https://www.accenture.com/fr-fr" target="_blank"><strong>Accenture</strong></a>, je m'efforce chaque jour de relever de nouveaux défis et de continuer à apprendre dans ce domaine en constante évolution.
                 </p>
                 </div>
             </div>

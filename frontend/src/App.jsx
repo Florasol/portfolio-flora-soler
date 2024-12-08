@@ -21,7 +21,7 @@ function App() {
       <div className='app-container'>
       
         <Routes>
-          <Route exact path="/portfolio-flora-soler" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/logements/:rentalId" element={<Logements />} />
           <Route path="/apropos" element={<Apropos />} />
           <Route path="/vosimpressions" element={<Vosimpressions />} />

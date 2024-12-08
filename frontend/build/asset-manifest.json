@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio-flora-soler/static/css/main.75eda235.css",
-    "main.js": "/portfolio-flora-soler/static/js/main.f2b77584.js",
-    "static/media/contactbanner.jpg": "/portfolio-flora-soler/static/media/contactbanner.07c8e02d4b221b9dc69d.jpg",
-    "static/media/aproposbanner.jpg": "/portfolio-flora-soler/static/media/aproposbanner.5093f0f9162af52b8d0b.jpg",
-    "static/media/homebanner.jpg": "/portfolio-flora-soler/static/media/homebanner.6032e598800746bff57a.jpg",
-    "static/media/dot-solid.png": "/portfolio-flora-soler/static/media/dot-solid.5c63c901d281f86e8419.png",
-    "static/media/logoFloraSolerdev.png": "/portfolio-flora-soler/static/media/logoFloraSolerdev.bb664f51b9d31b6574c8.png",
-    "static/media/logoFloraSolerdevheader.png": "/portfolio-flora-soler/static/media/logoFloraSolerdevheader.92eb0fabb16a0bd710b4.png",
-    "static/media/trashicon.png": "/portfolio-flora-soler/static/media/trashicon.1bcbafcc582f1e4b233c.png",
-    "static/media/dot-solid-red.png": "/portfolio-flora-soler/static/media/dot-solid-red.6f90c9659aa97885b636.png",
-    "index.html": "/portfolio-flora-soler/index.html",
-    "static/media/chevron-right-solid.svg": "/portfolio-flora-soler/static/media/chevron-right-solid.d9186ed3af1ee039f1173fec37292c29.svg",
-    "static/media/chevron-solid.svg": "/portfolio-flora-soler/static/media/chevron-solid.0fea8b2c29661f8deae7c0870d8f97f4.svg",
-    "main.75eda235.css.map": "/portfolio-flora-soler/static/css/main.75eda235.css.map",
-    "main.f2b77584.js.map": "/portfolio-flora-soler/static/js/main.f2b77584.js.map"
+    "main.css": "/portfolio/static/css/main.efc1206b.css",
+    "main.js": "/portfolio/static/js/main.32a39803.js",
+    "static/media/contactbanner.jpg": "/portfolio/static/media/contactbanner.07c8e02d4b221b9dc69d.jpg",
+    "static/media/aproposbanner.jpg": "/portfolio/static/media/aproposbanner.5093f0f9162af52b8d0b.jpg",
+    "static/media/homebanner.jpg": "/portfolio/static/media/homebanner.6032e598800746bff57a.jpg",
+    "static/media/CV_SOLER_2024_Accenture.jpg": "/portfolio/static/media/CV_SOLER_2024_Accenture.0ce96b77c952e53c26ad.jpg",
+    "static/media/quotesicon.png": "/portfolio/static/media/quotesicon.220dbb4842f92667db63.png",
+    "static/media/dot-solid.png": "/portfolio/static/media/dot-solid.5c63c901d281f86e8419.png",
+    "static/media/logoFloraSolerdev.png": "/portfolio/static/media/logoFloraSolerdev.bb664f51b9d31b6574c8.png",
+    "static/media/logoFloraSolerdevheader.png": "/portfolio/static/media/logoFloraSolerdevheader.92eb0fabb16a0bd710b4.png",
+    "static/media/trashicon.png": "/portfolio/static/media/trashicon.1bcbafcc582f1e4b233c.png",
+    "static/media/linkedinicon.png": "/portfolio/static/media/linkedinicon.41a23f98c77f41c13b8e.png",
+    "static/media/githubicon.png": "/portfolio/static/media/githubicon.e8efa7f43ecd05b0a5e4.png",
+    "static/media/gmailicon.png": "/portfolio/static/media/gmailicon.88df4536286db2e881aa.png",
+    "static/media/dot-solid-red.png": "/portfolio/static/media/dot-solid-red.6f90c9659aa97885b636.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/chevron-right-solid.svg": "/portfolio/static/media/chevron-right-solid.d9186ed3af1ee039f1173fec37292c29.svg",
+    "static/media/chevron-solid.svg": "/portfolio/static/media/chevron-solid.0fea8b2c29661f8deae7c0870d8f97f4.svg",
+    "main.efc1206b.css.map": "/portfolio/static/css/main.efc1206b.css.map",
+    "main.32a39803.js.map": "/portfolio/static/js/main.32a39803.js.map"
   },
   "entrypoints": [
-    "static/css/main.75eda235.css",
-    "static/js/main.f2b77584.js"
+    "static/css/main.efc1206b.css",
+    "static/js/main.32a39803.js"
   ]
 }

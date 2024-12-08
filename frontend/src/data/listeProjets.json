@@ -3,7 +3,7 @@
 	{
 		"id": "c67ab8a7",
 		"title": "NODE.JS: Back-end d'un site de notation de livres",
-		"cover": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/cover1.png",
+		"cover": "assets/projects/project1/cover1.png",
 		"pictures": [
 			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo1.png",
 			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo2.png",
@@ -20,15 +20,17 @@
 		"location": "Projet de formation",
 		"equipments": [
 			"Développement back-end: Node.js, Express et MongoDB. Essentiel pour créer des applications web modernes et performantes.",
-			"Maîtrise des opérations CRUD, de la sécurité des données et de l'authentification. ",
-			"Expérience avec l'architecture MVC et la création d'API RESTful afin d'initier le développement d'applications web full-stack complexes."
+			"Maîtrise des opérations CRUD, de l'outil POSTMAN, de la sécurité des données et de l'authentification. ",
+			"Expérience avec l'architecture MVC et la création d'API RESTful afin d'initier le développement d'applications web full-stack."
 		],
 		"tags": [
 			"Node.js",
 			"Express",
 			"MongoDB",
 			"Mongoose",
-			"API RESTFUL"
+			"API RESTFUL",
+			"Figma",
+			"Postman"
 		]
 	},
 	{
@@ -40,7 +42,7 @@
 			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project2/photo2.png",
 			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project2/photo3.png"
 		],
-		"description": "Profitez du charme de la vie parisienne dans un magnifique appartement. A 3 minutes à pied du Canl Saint Martin, vous serez proche des transports, mais également de nombreux commerces. L'appartement est tout équipé, et possède également un parking pour ceux qui souhaitent se déplacer en voiture.",
+		"description": "Je travaille comme développeuse front-end pour l'agence ArchiWebos et je rejoins une équipe pour concevoir le site portfolio d'une architecte d'intérieur. Après un premier brief, j'ai reçu les éléments nécessaires, y compris le design Figma, le code back-end, et les tâches à accomplir : développer la page de présentation des travaux, créer une page de connexion pour l'administrateur, et concevoir une modale d'ajout de photos pour l'architecte.",
 		"host": {
 			"name": "Openclassrooms",
 			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
@@ -48,27 +50,29 @@
 		"rating": "3",
 		"location": "Projet de formation",
 		"equipments": [
-			"Création de pages web dynamiques avec JavaScript est essentielle dans le développement web.",
+			"Création de pages web dynamiques avec JavaScript afin de faciliter l'interaction utilisateur.",
 			"Gestion des interaction utilisateurs et communication avec des APIs",
 			"Préparation pour des projets de développement web plus avancés et évolution vers un Front-End complet et recherché"
 		],
 		"tags": [
-			"Canal Saint Martin",
-			"République",
-			"Appartement"
+			"Javascript",
+			"API",
+			"Figma",
+			"Token",
+			"Modale",
+			"Formulaire"
 		]
 	},
 	{
 		"id": "46d188c5",
 		"title": "SEO: optimisation d'un site de photographe",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
+		"cover": "assets/projects/project3/cover1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-2-4.jpg"
+			"assets/projects/project3/photo1.png",
+			"assets/projects/project3/photo2.png",
+			"assets/projects/project3/photo3.png"
 		],
-		"description": "À seulement deux pas des Buttes Chaumont, venez découvrir Paris dans ce studio tout équipé. Entièrement équipé pour votre confort et élégamment décoré, il vous permettra de vivre comme un Parisien le temps de votre séjour.",
+		"description": "Développeuse freelance, je propose des services d'optimisation SEO à Nina Carducci, une photographe dont le site présente des problèmes de performance et de référencement. Après avoir réalisé un audit du site et envoyé une proposition d'optimisation, Nina accepte mon offre offre et je me lance sur la recherche des bonnes pratiques en termes de référencement et d'accessibilité.",
 		"host": {
 			"name": "Openclassrooms",
 			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
@@ -76,28 +80,30 @@
 		"rating": "5",
 		"location": "Projet de formation",
 		"equipments": [
-			"Wi-fi",
-			"Cuisine équipée",
-			"Télévision",
-			"Sèche Cheveux"
+			"Utiliser des outils comme Lighthouse et Wave pour identifier les problèmes de chargement, de référencement et d'accessibilité du site.",
+			"Suggérer des modifications pour optimiser la vitesse de chargement, la structure du code, et améliorer le référencement du site.",
+			"Modifier le code du site pour mettre en œuvre les recommandations et améliorer les performances, le référencement et l'accessibilité.",
+			"Rédiger un rapport illustrant les résultats avant et après les modifications, avec des captures d'écran des audits et des explications sur les changements effectués."
 		],
 		"tags": [
-			"Buttes Chaumont",
-			"Laumière",
-			"Studio"
+			"Figma",
+			"SEO",
+			"Lighthouse",
+			"Wave",
+			"performance",
+			"référencement"
 		]
 	},
 	{
 		"id": "7af00cd6",
 		"title": "GESTION DE PROJET: application de création de menu",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
+		"cover": "assets/projects/project4/cover1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-3-4.jpg"
+			"assets/projects/project4/photo1.png",
+			"assets/projects/project4/photo2.png",
+			"assets/projects/project4/photo3.png"
 		],
-		"description": "Venez découvrir Paris en séjournant dans ce nid douillet au coeur du 11ème. La vue sur le parc résidentiel saura vous reposer de vos longues journées de tourisme dans la capitale française. Et pour les plus fêtards d'entre vous, la rue Jean Pierre Timbaud vous permettra de découvrir la night-life parisienne à seulement 5 minutes de l'appartement.",
+		"description": "Dans le cadre du projet Menu Maker pour Qwenta, je suis chargée de préparer et planifier le développement du site en l'absence du Product Owner, Soufiane. Je dois donc réaliser les spécifications techniques, organiser un tableau Kanban pour suivre les tâches du projet, et développer un système de veille pour suivre les dernières technologies et bonnes pratiques.",
 		"host": {
 			"name": "Openclassrooms",
 			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
@@ -105,32 +111,31 @@
 		"rating": "5",
 		"location": "Projet de formation",
 		"equipments": [
-			"Micro-Ondes",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Climatisation",
+			"Développer des compétences en planification, en analysant la maquette, les spécifications fonctionnelles et les User Stories pour établir une feuille de route claire pour le projet.",
+			"Réaliser une veille technologique pour suivre les dernières tendances et technologies pertinentes.",
+			"Rédiger des spécifications techniques détaillées en traduisant les besoins fonctionnels en tâches spécifiques.",
+			"Utilisation de Notion, j'ai pu organiser le projet de manière structurée, créer un tableau Kanban et suivre l'avancement du projet, renforçant ainsi mes compétences en gestion de projet agile",
 			"Télévision"
 		],
 		"tags": [
-			"Parmentier",
-			"Marais",
-			"Parc",
-			"Night Life"
+			"Figma",
+			"Notion",
+			"User Stories",
+			"Kanban",
+			"SCRUM",
+			"Méthode Agile"
 		]
 	},
 	{
 		"id": "0979876d",
 		"title": "REACT: Application web de location immobilière",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
+		"cover": "assets/projects/project5/cover1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-5.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-4-6.jpg"
+			"assets/projects/project5/photo1.png",
+			"assets/projects/project5/photo2.png",
+			"assets/projects/project5/photo3.png"
 		],
-		"description": "Ce loft entièrement rénové, et équipé de meubles de luxe saura vous séduire. Idéalement situé dans le 10ème arrondissement, vous déplacer dans Paris sera un véritable jeu d'enfant.",
+		"description": "Je suis développeuse front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers. Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.",
 		"host": {
 			"name": "Openclassrooms",
 			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
@@ -138,44 +143,46 @@
 		"rating": "4",
 		"location": "Projet de formation",
 		"equipments": [
-			"Frigo Américain",
-			"Sèche Cheveux",
-			"Wi-fi",
-			"Chambre Séparée",
-			"Parking"
+			"Concepts fondamentaux de React, tels que les composants, les hooks (useState, useEffect) et la gestion de l'état, afin de construire des interfaces utilisateur modernes et réactives.",
+			"Utilisation de React Router pour configurer et gérer la navigation entre différentes pages de l'application, fluide et intuitive.",
+			"Gestion de données JSON afin de gérer et afficher des informations dynamiques dans les composants React.",
+			"Intégration de SASS pour structurer le CSS de manière efficace et optimiser la gestion des styles."
 		],
 		"tags": [
-			"Goncourt",
-			"Proche commerces"
+			"React",
+			"Create React App",
+			"React Router",
+			"Figma",
+			"SASS",
+			"Composants"
 		]
 	},
 	{
-		"id": "f72a452f",
-		"title": "HTML-CSS-BOOTSTRAP: site vitrine",
-		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
+		"id": "0979876d",
+		"title": "HTML-CSS-BOOTSTRAP: Site vitrine",
+		"cover": "assets/projects/project6/cover1.png",
 		"pictures": [
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-2.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-3.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-4.jpg",
-			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-5.jpg"
+			"assets/projects/project6/photo1.png",
+			"assets/projects/project6/photo2.png",
+			"assets/projects/project6/photo3.png"
 		],
-		"description": "Venez vous imprégner de la culture parisienne dans cet ancien studio d'artiste décoré avec goût, au coeur de Montmartre.",
+		"description": "Site réalisé en 2023 en autodidacte, en équipe avec deux amis, pour se lancer dans le développement. Grâce à HTML, j'ai élaboré les bases en tâtonnant, puis je me suis aidée du framework bootstrap. C'est un site qui me tient à coeur car il représente mes débuts en tant que développeuse et avec lequel nous nous sommes amusés à explorer les bases du code, les possibilités techniques, les solutions d'hébergement... En tant que projet parallèle, ce site est en constante évolution!",
 		"host": {
 			"name": "Projet personnel",
-			"picture": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/openclassroomslogo.png"
+			"picture": "assets/projects/flopic.jpg"
 		},
-		"rating": "4",
-		"location": "Projet de formation",
+		"rating": "5",
+		"location": "Projet personnel",
 		"equipments": [
-			"Chambre Séparée",
-			"Parking"
+			"Réalisation des bases structurelles d'un site à l'aide de HTML, en explorant les bonnes pratiques et en découvrant les principes fondamentaux du développement web.",
+			"Intégration de Bootstrap pour concevoir une interface utilisateur responsive, permettant un gain de temps et une meilleure présentation visuelle.",
+			"Apprentissage des différentes options d’hébergement et mise en place d’un site en ligne, en développant une compréhension globale des environnements de déploiement."	
 		],
 		"tags": [
-			"Montmartre",
-			"Culture",
-			"Charme"
-		]
+			"HTML",
+			"CSS",
+			"Bootstrap"
+			]
 	}
 	
 ]

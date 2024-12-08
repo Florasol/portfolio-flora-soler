@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://florasol.github.io/portfolio-flora-soler",
+  "homepage": "https://cherrynoir.fr/portfolio/",
   "private": true,
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
@@ -20,7 +20,6 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

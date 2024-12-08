@@ -11,11 +11,11 @@ import './header.scss';
 function Header() {
     return (
        <header className='header'>
-         <Link to="/portfolio-flora-soler">
+         <Link to="/">
             <img className='header__logo' alt='Logo de Flora Soler' src={logoFlora} />
          </Link>
          <nav>
-            <NavLink to="/portfolio-flora-soler" className='nav__item'>
+            <NavLink to="/" className='nav__item'>
                Projets
             </NavLink>
 
