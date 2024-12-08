@@ -13,6 +13,8 @@ function Collapse({ title, icon, content, className }) {
 	function toggle() {
 	  setOpen(!open)
 	}
+
+
 	return (
 	  <div className={className}>
 		<button className="collapse__title-container" onClick={toggle}>
@@ -25,7 +27,11 @@ function Collapse({ title, icon, content, className }) {
 		</button>
 			{open && (
 			<div className="collapse__text">
-				{React.cloneElement(icon, { className: 'collapse__icon' })}
+				{icon && (
+            <div className="collapse__icon">
+              {icon}
+            </div>
+          )}
 				<br/>
 				{content}
 			</div>

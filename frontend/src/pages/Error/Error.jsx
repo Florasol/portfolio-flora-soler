@@ -8,7 +8,7 @@ function Error() {
         <div className='error'>
             <span className="error__code">404</span>
             <span className='error__title'>Oups! La page que vous demandez n'existe pas.</span>
-            <Link to="/">
+            <Link to="/portfolio-flora-soler">
             <span className='error__homeLink'>
             Retourner sur la page d’accueil
             </span>

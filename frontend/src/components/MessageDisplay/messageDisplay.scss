@@ -22,7 +22,6 @@
   cursor: pointer; /* Keeps the pointer cursor on hover */
         &__icon {
             width: 45px;
-            position: relative;
             transition: width 200ms ease-in-out;
             &:hover {
                 width: 60px;

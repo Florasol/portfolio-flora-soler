@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 //Import Style
 import './App.scss'
@@ -16,12 +16,12 @@ import Footer from './layouts/Footer/Footer'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Header />
       <div className='app-container'>
       
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/portfolio-flora-soler" element={<Home />} />
           <Route path="/logements/:rentalId" element={<Logements />} />
           <Route path="/apropos" element={<Apropos />} />
           <Route path="/vosimpressions" element={<Vosimpressions />} />
@@ -29,7 +29,7 @@ function App() {
         </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

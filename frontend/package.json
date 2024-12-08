@@ -1,6 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
+  "homepage": "https://florasol.github.io/portfolio-flora-soler",
   "private": true,
   "dependencies": {
     "@react-pdf-viewer/core": "^3.12.0",
@@ -13,12 +14,13 @@
     "react-modal": "^3.16.1",
     "react-pdf": "^9.1.1",
     "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
     "sass": "^1.79.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,7 +45,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0",
-    "react-scripts": "5.0.1"
+    "gh-pages": "^6.2.0"
   }
 }

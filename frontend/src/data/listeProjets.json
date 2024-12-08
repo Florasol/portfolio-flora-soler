@@ -3,10 +3,13 @@
 	{
 		"id": "c67ab8a7",
 		"title": "Back-end d'un site de notation de livres",
-		"cover": "/assets/projects/project1/cover1.png",
+		"cover": "https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/cover1.png",
 		"pictures": [
-			"/assets/projects/project1/photo1.png",
-			"/assets/projects/project1/photo2.png"
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo1.png",
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo2.png",
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo3.png",
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo4.png",
+			"https://portfolio-flo-bucket.s3.eu-north-1.amazonaws.com/projects/project1/photo5.png"
 		],
 		"description": "Développeuse back-end en freelance depuis maintenant un an dans la région de Lille, je travaille avec Kévin, un développeur front-end plus expérimenté qui a déjà un bon réseau de contacts dans le milieu. Nous mutualisons nos compétences front / back sur un tout nouveau projet qui lui a été proposé. Il s’agit d’une petite chaîne de librairies qui souhaite ouvrir un site de référencement et de notation de livres : Mon Vieux Grimoire.",
 		"host": {

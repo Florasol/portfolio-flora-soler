@@ -1,44 +1,27 @@
 @import '../../SassStyles/main';
 
+
 .cv-container {
-  position: relative;
   display: flex;
-    text-align: left;
-    margin: 60px 0 0 60px;
+  gap: 60px; 
+  @include mobile-responsive {
+    flex-direction: column; /* Stack items vertically on small screens */
+    gap: 20px; /* Reduce gap on mobile */
+  }
   }
   
   .cv-image {
     width: 400px;
-    object-fit:cover;  // Ensures the image fills the container properly
     border: 1px solid #ccc;
-    margin: 0 auto;
     opacity: 0.5; 
     transition: opacity 0.3s ease-in-out;
-    
     cursor: pointer;
-    &:hover {
-      opacity: 1; 
-    }
+      &:hover {
+        opacity: 1; 
+      }
+     
   }
 
-  .download-button {
-    position: absolute;
-    left: 15%;
-    top: 40%;
-    width: 60px;
-    color: $primary-color;
-    cursor: pointer;
-
-  }
-
-  .text-icons {
-    display: flex;
-  }
-
-  .quotes {
-    width: 200px; 
-    margin-left: 260px;
-  }
   
 
   .icon-button {
@@ -49,13 +32,38 @@
     
   }
 
-  .intro-text {
-    color: white;
-    background: linear-gradient(to top, rgba(135, 12, 102, 0.6), rgba(0, 0, 0, 0.3));
-    border-radius: 20px;
-    padding: 30px;
-    font-size: 18px;
-    margin: 0 0 0 60px;
-  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items:  end;
+
+        &__text {
+        color: $primary-color;
+        background-color: $third-color;
+        border-radius: 20px;
+        padding: 30px;
+        font-size: 18px;
+        @include mobile-responsive {
+          font-size: 14px;          
+        } 
+        a {
+          text-decoration: none; /* Enlève le soulignement du lien */
+          color: inherit; /* Hérite de la couleur du texte parent (ici, celle définie pour .intro__text) */
+        }
+        }
+
+        &__quotes {
+        width: 150px; 
+        opacity: (0.6);
+        @include mobile-responsive {
+          width: 100px;          
+        }  
+        }
+
+}
   
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+  }
 

@@ -61,6 +61,7 @@
                 background-color: transparent;
             }
             &__arrow {
+                filter: brightness(0.5);
                 width: 40px;
                 cursor: pointer;
                 @include mobile-responsive {

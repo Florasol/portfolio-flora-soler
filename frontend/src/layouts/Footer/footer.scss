@@ -9,7 +9,6 @@
     border-top: 2px solid white;
     &__logo {
         width: 120px;
-        margin-top: 20px;
         filter: brightness(5);
         justify-content: center;
         border: 2px solid $secondary-color;
@@ -18,3 +17,12 @@
         color: white;
     }
 }
+
+.icon-footer {
+    width: 30px;
+    margin: 10px;
+    margin-top: 20px;
+    color: $primary-color;
+    cursor: pointer;
+    
+  }
