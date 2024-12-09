@@ -33,6 +33,17 @@
               font-size: 14px;
           }
       }
+      &__link a {
+        text-decoration: none;
+        color: $primary-color;
+        border: 1px solid $primary-color;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: map-get($font-weight, regular);
+          @include mobile-responsive {
+              font-size: 14px;
+          }
+      }
   }
   
   .tags {

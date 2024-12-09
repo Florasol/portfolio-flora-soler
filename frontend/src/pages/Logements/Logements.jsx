@@ -29,6 +29,11 @@ function Logements() {
       <div className="rental-info-container">
         <div className="rental-info">
           <h1 className="rental-info__title">{rental.title}</h1>
+          <p className="rental-info__link">
+              <a href={rental.link.url} target="_blank" rel="noopener noreferrer">
+              Lien vers le projet
+              </a>
+              </p>
           <p className="rental-info__location">{rental.location}</p>
           <div className="rental-info__tags">
             <Tags tag={rental.tags} />

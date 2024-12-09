@@ -31,7 +31,10 @@
 			"API RESTFUL",
 			"Figma",
 			"Postman"
-		]
+		],
+		"link": {
+		    "url": "https://github.com/Florasol/OC-grimoire-backend-Flo.git"
+		}
 	},
 	{
 		"id": "b9123946",
@@ -61,7 +64,10 @@
 			"Token",
 			"Modale",
 			"Formulaire"
-		]
+		],
+		"link": {
+		    "url": "https://github.com/Florasol/Portfolio-architecte-sophie-bluel.git"
+		}
 	},
 	{
 		"id": "46d188c5",
@@ -92,7 +98,10 @@
 			"Wave",
 			"performance",
 			"référencement"
-		]
+		],
+		"link": {
+		    "url": "https://github.com/Florasol/Nina-Carducci-Dev.git"
+		}
 	},
 	{
 		"id": "7af00cd6",
@@ -124,7 +133,10 @@
 			"Kanban",
 			"SCRUM",
 			"Méthode Agile"
-		]
+		],
+		"link": {
+		    "url": "https://docs.google.com/presentation/d/15QY14l2VcFc2v3xMx-d6lsowcjol-qGMegAmtU5l6h4/edit?usp=sharing"
+		}
 	},
 	{
 		"id": "0979876d",
@@ -155,10 +167,13 @@
 			"Figma",
 			"SASS",
 			"Composants"
-		]
+		],
+		"link": {
+		    "url": "https://github.com/Florasol/Kasa-Immobilier-React.git"
+		}
 	},
 	{
-		"id": "0979876d",
+		"id": "f72a452f",
 		"title": "HTML-CSS-BOOTSTRAP: Site vitrine",
 		"cover": "assets/projects/project6/cover1.png",
 		"pictures": [
@@ -182,7 +197,10 @@
 			"HTML",
 			"CSS",
 			"Bootstrap"
-			]
+			],
+			"link": {
+				"url": "https://cherrynoir.fr/"
+			}
 	}
 	
 ]
